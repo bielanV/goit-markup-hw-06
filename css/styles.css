@@ -582,6 +582,7 @@ width: 100%;
     color: #4d5ae5;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    display: flex;
     }
 
 .nav-studio-footer {
