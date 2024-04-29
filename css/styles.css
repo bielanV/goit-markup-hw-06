@@ -266,10 +266,6 @@ text-decoration: none;
     margin: auto;
 }
 
-.button-wrapper {
-
-}
-
 .title-button:hover,
 .title-button:focus {
     background-color: #404BBF
@@ -518,13 +514,19 @@ width: 100%;
     margin: 0 auto;
 }
 
-/* .portfolio-item:hover .sellers-cover-text {
-    transform: translateY(0);
-} */
+.our-portfolio-images {
+    width: 100%;
+}
+
+
 
 .sellers-cover-wrap {
     position: relative;
     overflow: hidden;
+}
+
+.sellers-cover-wrap:hover .sellers-cover-text {
+    transform: translateY(0);
 }
 
 .sellers-cover-text {
@@ -534,8 +536,8 @@ width: 100%;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     transform: translateY(100%);
+    height: 100%;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #4d5ae5;
     padding: 40px 32px;
