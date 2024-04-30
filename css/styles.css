@@ -167,6 +167,11 @@ text-decoration: none;
     cursor: pointer;
 }
 
+.social-media-icons{
+    width: 40px;
+    height: 40px;
+}
+
 .mobile-menu-btn-icon {
     position: absolute;
     top: 50%;
@@ -181,7 +186,7 @@ text-decoration: none;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 40px;
-    flex-grow: 1;
+    margin-bottom: auto;
 }
 
 .mobile-menu-nav-link {
@@ -240,8 +245,8 @@ text-decoration: none;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 188px 0;
-    max-width: 1440px;
+    padding: 72px 0;
+    max-width: 320px;
     margin: auto;
 }
 
@@ -257,13 +262,14 @@ text-decoration: none;
 
 .title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
     max-width: 496px;
     margin: auto;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
 }
 
 .title-button:hover,
@@ -611,7 +617,6 @@ width: 100%;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-top: 72px;
     margin-bottom: 16px;
     text-align: center;
 }
@@ -648,11 +653,6 @@ width: 100%;
     position: relative;
 }
 
-
-.footer-subscribe {
-    width: 288px;
-}
-
 .subscribe {
     display: block;
     font-weight: 500;
@@ -661,7 +661,6 @@ width: 100%;
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
-    margin-top: 72px;
     margin-bottom: 16px;
 }
 
@@ -1009,7 +1008,6 @@ button:focus > svg {
         justify-content: flex-start;
         flex-direction: row;
         gap: 40px;
-        margin-right: 121px;
     }
 
     .nav-contacs {
@@ -1042,6 +1040,7 @@ button:focus > svg {
     .address-items {
         display: inline;
         font-style: normal;
+        margin-left: auto;
     }
 
     .address-list {
@@ -1191,8 +1190,7 @@ button:focus > svg {
     .footer-soc-container {
         display: flex;
         margin-left: 0;
-        gap: 24px;
-    }
+        }
 
     .nav-logo-footer {
         margin-bottom: 16px;
@@ -1215,7 +1213,6 @@ button:focus > svg {
     .footer-subscribe {
         display: flex;
         justify-content: center;
-        position: relative;
         flex-direction: column;
     }
 
@@ -1549,8 +1546,7 @@ button:focus > svg {
     .nav-media {
         width: 1158px;
         flex-wrap: nowrap;
-        justify-content: space-between;
-    }
+        }
 
     .logo-parag {
         margin-right: 120px;
@@ -1563,10 +1559,6 @@ button:focus > svg {
 
     .text-bellow {
         width: 264px;
-    }
-
-    .footer-wraper {
-        margin-right: 80px;
     }
 
     .media-icons {
@@ -1584,11 +1576,10 @@ button:focus > svg {
     }
 
     .footer-subscribe {
-        width: 453px;
-        height: 10px;
         display: flex;
         flex-direction: column;
         align-items: start;
+        margin-left: 80px;
     }
 
     .subscribe {
