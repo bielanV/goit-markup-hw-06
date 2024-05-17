@@ -569,6 +569,7 @@ width: 100%;
 .logo-parag{
     display: flex;
     flex-direction: column;
+    margin-bottom: 72px;
 }
 
 .icon-list-footer{
@@ -640,6 +641,10 @@ width: 100%;
 .icon-item {
     height: 40px;
     width: 40px;
+}
+
+.footer-wraper {
+    margin-bottom: 72px;
 }
 
 .social-media-icon{
@@ -981,7 +986,7 @@ button:focus > svg {
 
 /*-------------- Tablet------------------ */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1157px) {
 
     .mobile-menu,
     .menu-btn {
@@ -1208,6 +1213,14 @@ button:focus > svg {
 
     .icon-list-footer {
         margin-left: 0;
+    }
+
+    .footer-wraper {
+        margin-left: 24px;
+    }
+
+    .footer-subscribe {
+        margin-top: 72px;
     }
 
     .footer-subscribe {
@@ -1546,6 +1559,8 @@ button:focus > svg {
     .nav-media {
         width: 1158px;
         flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: baseline;
         }
 
     .logo-parag {
@@ -1559,6 +1574,10 @@ button:focus > svg {
 
     .text-bellow {
         width: 264px;
+    }
+
+    .footer-soc-container{
+        display: flex;
     }
 
     .media-icons {
